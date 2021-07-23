@@ -1,0 +1,282 @@
+stylesheet.css body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://res-4.cloudinary.com/enchanting/images/w_1600,h_700,c_fill/et-web/2018/08/Enchanting-Travels-Asia-Indonesia-Jimbaran-South-Kuta-Tropical-beach-Bali-Indonesia-Bali-shutterstock_496294129-1/destination-bali-jimbaran-indonesia.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(14, 145, 145, 0.9);
+}
+
+.logo {
+  font-family: "Trirong", serif;
+  color: white;
+  margin-bottom: 20x;
+
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  height: 63px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right li {
+  float: right;
+  list-style: none;
+  line-height: 65px;
+  font-size: 20px;
+  padding-right: 20px;
+ 
+  padding-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon {
+  position: relative;
+ 
+}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+  padding-left: 20px;
+}
+
+.lessons{
+  padding-top: 30px;
+}
+
+img{
+  width: 300px;
+  /* border-radius: 20%; */
+  margin-left: 20px;
+  height: 200px;
+  margin-top: 60px;
+  transition: width 2s, height 4s;
+}
+
+img:hover{
+  width: 400px;
+  height: 300px;
+  
+}
+
+.lesson-icon p{
+  font-size: 30px;
+}
+
+.gambar2 img{
+  padding-left: 120px;
+  padding-right: 50px;
+ 
+}
+
+.gambar2 p{
+  padding-left: 100px;
+  margin-left: 20px;
+}
+
+.text2 p{
+  padding-left: 180px;
+}
+
+.gambar3 img{
+  padding-left: 240px;
+ 
+ 
+}
+.gambar3 p{
+  padding-left: 230px;
+  margin-left: 20px;
+}
+
+.text3 p{
+  padding-left: 300px;
+}
+
+
+footer {
+  height: 155px;
+  width: 100%;
+  background-color: rgba(5, 71, 71, 0.9);
+
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right{
+  float: right;
+  padding-top: 40px;
+  padding-right: 30px;
+  color: white;
+}
+
+.footer-right li{
+  padding-bottom: 20px;
+}
+
+.logo-footer {
+  font-family: "Trirong", serif;
+  color: white;
+  margin-bottom: 20x;
+  padding-left: 30px;
+  padding-top: 30px;
+
+}
+
+
+@media screen and (max-width: 1080px) {
+    
+  .container {
+      width: auto;
+  }
+
+  .header-right{
+    width: auto;
+    float: none;
+  }
+
+  .lesson{
+    width: auto;
+  }
+
+  
+
+  img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+  }
+
+  .gambar2 img{
+    padding-right: 20px;
+  }
+ 
+  footer{
+    width: auto;
+   
+  }
+ 
+}
+
